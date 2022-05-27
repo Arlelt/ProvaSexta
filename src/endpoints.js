@@ -41,7 +41,7 @@ server.get('/diasemana', (req, resp) => {
     }
 })
 
-server.get('/fatorial', (req, resp) => {
+server.post('/fatorial', (req, resp) => {
     try {
         const { num } = req.query;
 
